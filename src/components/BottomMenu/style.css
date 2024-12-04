@@ -1,0 +1,13 @@
+.link:hover {
+  background-color: rgba(57, 57, 57, 0.078);
+}
+.link {
+  cursor: pointer;
+}
+Link {
+  border: 1px solid red;
+}
+
+.bottommenu-container {
+  display: non;
+}

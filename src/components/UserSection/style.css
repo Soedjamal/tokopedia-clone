@@ -1,0 +1,10 @@
+.addr-on {
+  bottom: 0;
+  position: fixed;
+  transition: all 0.5s ease;
+}
+.addr-off {
+  bottom: -100%;
+  position: fixed;
+  transition: all 0.5s ease;
+}

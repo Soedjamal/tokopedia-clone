@@ -1,0 +1,11 @@
+.menu-active {
+  position: fixed;
+  top: 0;
+  transition: all 400ms ease;
+}
+
+.menu-close {
+  position: fixed;
+  top: 100%;
+  transition: all 400ms ease;
+}

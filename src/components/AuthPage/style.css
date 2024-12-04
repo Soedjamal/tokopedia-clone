@@ -1,0 +1,6 @@
+.back::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  border-top: 2px solid #000;
+}

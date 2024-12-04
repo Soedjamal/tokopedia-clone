@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 0;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+.nav-link {
+  margin-bottom: 16px;
+}
+li {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+  transition: all 0.3s ease;
+}
+.line {
+  display: none;
+  width: 45px;
+  height: 2px;
+  border-radius: 4px 4px 0 0;
+  background-color: green;
+}
+li:hover .nav-link,
+li:hover .line {
+  font-weight: bold;
+  color: green;
+  display: flex;
+}
+
+ul:first-child() {
+  color: green;
+}
+
+.ard-products-item {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:
+    5px 5px 10px #e3e3e3,
+    -5px -5px 10px #ffffff;
+}

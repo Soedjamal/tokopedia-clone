@@ -1,0 +1,29 @@
+.service-contain::-webkit-scrollbar {
+  width: 0;
+}
+
+.icon-prov {
+  box-shadow:
+    10px 10px 50px #bababa,
+    -10px -10px 50px #ffffff;
+}
+
+.card-product {
+  flex: 0 0 auto;
+}
+
+.credit-card-contain {
+  background-color: #019b45;
+}
+
+.card-d-product-contain::-webkit-scrollbar {
+  width: 0;
+}
+
+.new-p-card-container::-webkit-scrollbar {
+  width: 0;
+}
+
+.card-cp-container::-webkit-scrollbar {
+  display: none;
+}
